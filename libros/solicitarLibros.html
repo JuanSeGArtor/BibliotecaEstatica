@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIIB</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/solicitarLibros.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Sistema de Información Interbibliotecario</h1>
+        </div>
+        <div id="underHeader">
+            <div>
+                <h2>Solicitud</h2>
+            </div>
+            <div>
+                <input id="search" type="search" name="" id="" size="50%" placeholder=" ¿Qué estás buscando... ?">
+                <img id="lupa" src="../img/lupa.png" alt="">
+            </div>
+            <div>
+                <img id="userPhoto" src="../img/user.png" alt="">
+                <select name="" id="user">
+                    <option value="">Mi perfil</option>
+                    <option value="">Salir</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="../libros/crearLibros.html">Crear libro</a>
+        <a href="../libros/entregarLibros.html">Entregar libro</a>
+        <a href="#">Solicitar libro</a>
+    </nav>
+
+    <div id="body">
+        <br>
+        <h3>Solicitar libro(s)</h3>
+
+        <div id="busqueda">
+            <label for="">Buscar libro por:</label>
+            <input type="radio" name="filtro" id="" class="radio">Título
+            <input type="radio" name="filtro" id="" class="radio">Autor
+            <input type="radio" name="filtro" id="" class="radio">Área
+            <input id="searchDoc" type="search" size="60%" placeholder="🔍search">
+        </div>
+
+        <table>
+            <tr id="rowHeader">
+                <td>
+                    <label for=""><b>Título</b></label>
+                </td>
+                <td>
+                    <label for=""><b>Editorial</b></label>
+                </td>
+                <td>
+                    <label for=""><b>ISBN</b></label>
+                </td>
+                <td>
+                    <label for=""><b>Autor(es)</b></label>
+                </td>
+                <td>
+                    <label for=""><b>Núm. Páginas</b></label>
+                </td>
+                <td>
+                    <label for=""><b>Núm. Ejemplares</b></label>
+                </td>
+                <td>
+                    <label for=""><b>Disponible</b></label>
+                </td>
+                <td>
+                    <label for=""><b>Disponible para:</b></label>
+                </td>
+                <td class="actions" colspan="2">
+                    <b>Acciones</b>
+                </td>
+            </tr>
+
+            <tr class="specialRows">
+                <td>
+                    <label for="">Guía práctica de HTML5 y CSS3</label>
+                </td>
+                <td>
+                    <label for="">Santillana</label>
+                </td>
+                <td>
+                    <label for="">82-43534-554-01</label>
+                </td>
+                <td>
+                    <label for="">Yesid Arévalo <br> Cristian Melo</label>
+                </td>
+                <td>
+                    <label for="">87</label>
+                </td>
+                <td>
+                    <label for="">32</label>
+                </td>
+                <td>
+                    <label for="">Si</label>
+                </td>
+                <td>
+                    <label for="">Sala</label>
+                </td>
+                <td class="actions">
+                    <a href="">Ver contenido</a>
+                </td>
+                <td class="actions">
+                    <a href="">Solicitar</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Introducción al diseño avanzado</label>
+                </td>
+                <td>
+                    <label for="">Marquesín</label>
+                </td>
+                <td>
+                    <label for="">54-32156-664-57</label>
+                </td>
+                <td>
+                    <label for="">Daniel Herrera</label>
+                </td>
+                <td>
+                    <label for="">154</label>
+                </td>
+                <td>
+                    <label for="">18</label>
+                </td>
+                <td>
+                    <label for="">No</label>
+
+                </td>
+                <td>
+                    <label for="">Casa</label>
+                </td>
+                <td class="actions">
+                    <a href="">Ver contenido</a>
+                </td>
+                <td class="actions">
+                    
+                </td>
+            </tr>
+
+            <tr class="specialRows">
+                <td>
+                    <label for="">Creación y desarrollo de videojuegos con UE4</label>
+                </td>
+                <td>
+                    <label for="">Arandel</label>
+                </td>
+                <td>
+                    <label for="">76-453543-23-03</label>
+                </td>
+                <td>
+                    <label for="">Sergio Umbarila <br> Horacio Meza</label>
+                </td>
+                <td>
+                    <label for="">296</label>
+                </td>
+                <td>
+                    <label for="">7</label>
+                </td>
+                <td>
+                    <label for="">Si</label>
+                </td>
+                <td>
+                    <label for="">Virtual</label>
+                </td>
+                <td class="actions">
+                    <a href="">Ver contenido</a>
+                </td>
+                <td class="actions">
+                    <a href="">Solicitar</a>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label for="">Bases de datos con PHP</label>
+                </td>
+                <td>
+                    <label for="">Santillana</label>
+                </td>
+                <td>
+                    <label for="">25-0146-09-22</label>
+                </td>
+                <td>
+                    <label for="">Nidia Nieto <br> Zulma Salas</label>
+                </td>
+                <td>
+                    <label for="">142</label>
+                </td>
+                <td>
+                    <label for="">65</label>
+                </td>
+                <td>
+                    <label for="">Si</label>
+                </td>
+                <td>
+                    <label for="">Sala</label>
+                </td>
+                <td class="actions">
+                    <a href="">Ver contenido</a>
+                </td>
+                <td class="actions">
+                    <a href="">Solicitar</a>
+                </td>
+            </tr>
+        </table>
+
+        <div id="seleccionTabla">
+                <a href="">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+        </div>
+    </div>
+
+    <footer>
+        © Todos los derechos reservados
+    </footer>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIIB</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/entregarLibros.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Sistema de Información Interbibliotecario</h1>
+        </div>
+        <div id="underHeader">
+            <div>
+                <h2>Entrega</h2>
+            </div>
+            <div>
+                <input id="search" type="search" name="" id="" size="50%" placeholder=" ¿Qué estás buscando... ?">
+                <img id="lupa" src="../img/lupa.png" alt="">
+            </div>
+            <div>
+                <img id="userPhoto" src="../img/user.png" alt="">
+                <select name="" id="user">
+                    <option value="">Mi perfil</option>
+                    <option value="">Salir</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="../libros/crearLibros.html">Crear libro</a>
+        <a href="#">Entregar libro</a>
+        <a href="../libros/solicitarLibros.html">Solicitar libro</a>
+    </nav>
+
+    <div id="body">
+        <br>
+        <h3>Entrega de libros</h3>
+        
+        <div id="docUsuario">
+            <label for="">Número de documento del usuario</label> 
+            <input id="searchDoc" type="search" placeholder="🔍1032178893">
+        </div>
+        
+        <p>Usuario activo</p>
+
+        <fieldset>
+            <legend>Listado de libros</legend>
+            <form action="">
+                <table>
+                    <tr>
+                        <th>Título</th>
+                        <th>ISBN</th>
+                        <th>Disponible para</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Guía práctica de HTML5 y CSS3</label>
+                        </td>
+                        <td>
+                            <label for="">82-43534-554-01</label>
+                        </td>
+                        <td>
+                            <label for="">Sala</label>
+                        </td>
+                        <td>
+                            <a href="">Entregar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Introducción a bases de datos con MongoDB</label>
+                        </td>
+                        <td>
+                            <label for="">1-2353-687-32</label>
+                        </td>
+                        <td>
+                            <label for="">Sala</label>
+                        </td>
+                        <td>
+                            <a href="">Entregar</a>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </div>
+
+    <footer>
+        © Todos los derechos reservados
+    </footer>
+</body>
+</html>

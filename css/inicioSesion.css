@@ -1,0 +1,14 @@
+form{
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(97, 97, 97);
+}
+h2{
+    padding-left: 40%;
+}
+td{
+    padding-right: 20px;
+}

@@ -1,0 +1,20 @@
+form{
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(88, 88, 88);
+    font-size: 20px;
+    padding-left: 42%;
+}
+td{
+    padding-right: 20px;
+}
+a:hover{
+    color: rgb(116, 93, 93);
+}

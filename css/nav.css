@@ -1,0 +1,14 @@
+nav{
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 35%;
+    border-bottom: 1px solid gray;
+}
+nav > a{
+    text-decoration: none;
+    padding-right: 40px;
+    color: brown;
+}
+a:hover{
+    color: rgb(116, 93, 93);
+}

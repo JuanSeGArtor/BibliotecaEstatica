@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color:  rgb(255, 226, 182);
+    height: 100px;
+    text-align: center;
+    box-shadow: 0px 4px 8px gray;
+}
+h1{
+    color: rgb(73, 51, 25);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+#underHeader{
+    margin-top: 16px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(88, 88, 88);
+    font-size: 20px;
+    padding-left: 50%;
+}
+#search{
+    margin-top: 5px;
+    text-align: left;
+    border-radius: 8px 8px 8px 8px;
+    vertical-align: middle;
+}
+#lupa{
+    height: 20px;
+    vertical-align: middle;
+}
+#userPhoto{
+    background-color: azure;
+    height: 32px;
+    vertical-align: middle;
+}
+a:hover{
+    color: rgb(116, 93, 93);
+}

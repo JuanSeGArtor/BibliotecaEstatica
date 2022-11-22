@@ -1,0 +1,56 @@
+#body{
+    border-bottom: 1px solid rgb(97, 97, 97);
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(88, 88, 88);
+    font-size: 20px;
+    padding-left: 28%;
+}
+#docUsuario{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 40px;
+}
+#searchDoc{
+    text-align: left;
+    border-radius: 8px 8px 8px 8px;
+}
+p{
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+fieldset{
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-bottom: 70px;
+}
+legend{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+th{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+td{
+    padding-right: 20px;
+}
+td > a{
+    color: rgb(29, 119, 255);
+}
+a:hover{
+    color: rgb(116, 93, 93);
+}
